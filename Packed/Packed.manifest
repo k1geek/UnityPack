@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2255049759
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets/res/plane.ab
+      Dependencies:
+        Dependency_0: assets/res/plane/materials.ab
+    Info_1:
+      Name: assets/res/plane/materials.ab
+      Dependencies:
+        Dependency_0: assets/res/plane.ab
+    Info_2:
+      Name: assets/scenes.ab
+      Dependencies:
+        Dependency_0: assets/res/plane.ab
