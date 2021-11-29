@@ -7,14 +7,13 @@ using UnityEditor;
 
 public class AssetBundleBuilder
 {
-    public static string data = Application.dataPath.Replace("\\", "/");
-    public static string root = data.Substring(0, data.Length - 6);
-    public static string dest = root + "Packed/";
+    public static string dest = Base.Packed;
     // public static string packres = dest + "packres/";
 
     [MenuItem("Tools/AssetBundleTool/BuildAsstBundleWin")]
     public static void BuildAsstBundleWin(){
         build(BuildTarget.StandaloneWindows64);
+        AppVersionBuild.Versionbuild();
     }
 
     public static void build(BuildTarget target){
