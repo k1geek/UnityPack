@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3861266877
+CRC: 3328391516
 Hashes:
   AssetFileHash:
     serializedVersion: 2
@@ -15,6 +15,7 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Res/plane/Materials/planeTex1.mat
 - Assets/Res/plane/Materials/planeTex2.mat

@@ -13,7 +13,6 @@ public class AssetBundleBuilder
     [MenuItem("Tools/AssetBundleTool/BuildAsstBundleWin")]
     public static void BuildAsstBundleWin(){
         build(BuildTarget.StandaloneWindows64);
-        AppVersionBuild.Versionbuild();
     }
 
     public static void build(BuildTarget target){

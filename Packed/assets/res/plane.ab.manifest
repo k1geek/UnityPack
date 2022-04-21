@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 567226471
+CRC: 3092150105
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4fc027cea717d295b90c4a4cb709253a
+    Hash: ac5ddde7b0e1b4821f06135213c820bd
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4dff6b784cf09adfff33a5d8130fa8ea
@@ -27,6 +27,7 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Res/plane/Plane.prefab
 - Assets/Res/plane/planeTex2.png
